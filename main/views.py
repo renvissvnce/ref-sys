@@ -3,7 +3,7 @@ from helpers.decorators import auth_user_should_not_access
 from django.urls import reverse
 from .models import Acc, Passcode
 from django.contrib.auth import authenticate, login, logout
-from django.contrib.auth import models
+
 
 
 import random
